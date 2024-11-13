@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAVE on Stellar Whitepaper</title>
+  <link rel="icon" type="image/png" href=".well-known/savelogo.png">
+  <style>
+    body {
+      display: inline-block; 
+	  margin: 0 auto;
+	  font-family: Arial, sans-serif;
+	  line-height: 1.6;
+	  text-align: center; 
+      vertical-align: middle; 
+	  horizontal-align: center;
+      padding: 20px;
+	}
+	p { /* Or the container where your links are */
+	  text-align: center; 
+	  display: block; /* Change back to block */
+	  width: 100%; /* Make sure the paragraph takes full width */ 
+	}
+	a { /* Target all links */
+	  display: inline-block; /* Necessary for overflow to work */
+	  overflow: hidden;
+	  text-overflow: ellipsis; /* Adds "..." for truncated text */
+	  white-space: nowrap;  
+	  max-width: 100%; /* Or adjust as needed */
+	}
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+	  font-family: Arial, sans-serif;
+	  line-height: 1.6;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+	  overflow: hidden;
+	  text-overflow: ellipsis; /* Adds "..." for truncated text */
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://savetoken.net/.well-known/savelogo.png" alt="SAVE Logo" width="150"> 
+    <h1>SAVE on Stellar Whitepaper</h1>
+  </header>
+
+  <main>
+    <h2>Abstract</h2>
+    <p>Project SAVE is a sustainable digital asset initiative on the Stellar blockchain designed for low-risk investors seeking long-term, stable growth. Through a unique tokenomics model, SAVE guarantees buybacks at a price floor currently set at 0.0038 XLM, ensuring a secure minimum value. The project commits to 100% reinvestment of revenue into the token ecosystem, enhancing liquidity and stability. Community-driven governance plays a central role, with plans for a transition to a Decentralized Autonomous Organization (DAO), fostering transparency and investor trust through strategic liquidity provision.</p>
+
+    <h2>Introduction and Mission</h2>
+    <p>SAVE was created in response to the numerous "rug pulls" and failed projects in the cryptocurrency space that left investors with worthless tokens. With an emphasis on sustainability, SAVE’s tokenomics model offers a guaranteed buyback mechanism that provides token holders with an ever-increasing value floor. This security is combined with reinvestment and decentralized governance. SAVE aims to restore investor confidence and set a new standard for long-term token value stability, specifically targeting those seeking low-risk, gradual growth. Community involvement is central, and SAVE plans to transition to a DAO model for broader governance participation.</p>
+
+    <h2>Tokenomics</h2>
+
+    <h3>Token Distribution</h3>
+    <p>SAVE Total Supply is 25 million. 100,000 SAVE tokens are released to the market in weekly releases on Friday at a random time via a swap on the AMM. This mechanism ensures controlled distribution and stability. The current unreleased balance of SAVE ensures at least two years of distributions to help discourages sudden market changes.</p>
+
+    <h3>Voting Mechanism</h3>
+    <p>Voting requires sending 1 SAVE to a designated Stellar wallet, with active holder wallets eligible to participate. Voting eligibility considers wallet activity duration, transaction history, the amount of SAVE held, and general wallet activity. All SAVE used for voting will return to the distribution wallet. Public discussions on Telegram provide transparency for the community. Examples of vote topics include whitepaper amendments, partnerships, and yield farming proposals.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Vote</th>
+          <th>Stellar Wallet Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>YES</td>
+          <td><a href="https://stellar.expert/explorer/public/account/GBJLO4H5TTE4JXMWFMVOB6TPQFUCAGQEF6WRVKFQUHFLSNOS6CQZRFPR">GBJLO4H5TTE4JXMWFMVOB6TPQFUCAGQEF6WRVKFQUHFLSNOS6CQZRFPR</a></td>
+        </tr>
+        <tr>
+          <td>NO</td>
+          <td><a href="https://stellar.expert/explorer/public/account/GDUV52PF4JS3E6ZOHPO5TAWUG54E6UCA5AEDHFP4EAVBFLPEERE4ZU2G">GDUV52PF4JS3E6ZOHPO5TAWUG54E6UCA5AEDHFP4EAVBFLPEERE4ZU2G</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Buyback Mechanism</h3>
+    <p>SAVE operates with a 100% buyback guarantee, ensuring that token holders can sell their tokens at any time for a minimum price that will never decrease. This value floor is currently set at 0.0038 XLM, regarded as the “new zero.” The buyback mechanism is managed through an operations wallet, which regularly assesses the XLM reserve to evaluate potential buyback increases. The buyback price recalculates weekly based on circulating SAVE and XLM reserves, ensuring liquidity for the full circulating supply of SAVE. The current buyback rate on the DEX is 0.0038 XLM.</p>
+
+    <p>The potential buyback is calculated as follows:</p>
+    <p>[(Total SAVE in circulation - SAVE in project LP SAVE/XLM - SAVE in project LP SAVE/yXLM) / Total XLM]<br> - (25 XLM Reserve)</p>
+    <p>When the potential buyback rate is greater than the current buyback rate by 0.001 XLM, it is raised by 0.001 XLM. This calculation is tested weekly.</p>
+
+    <h2>SAVE Wallets</h2>
+
+    <h3>SAVE Issuer</h3>
+    <p>The wallet responsible for issuing SAVE tokens.<br>
+      <a href="https://stellar.expert/explorer/public/account/GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ">GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ</a></p>
+
+    <h3>SAVE Distributor</h3>
+    <p>The wallet responsible for distributing tokens via the Stellar DEX.<br>
+      <a href="https://stellar.expert/explorer/public/account/GB7DIWB6UMX5BUVARY6HVFM2Q376GBNPRPKXJHRCQCAMNYLCV4VQ3BAS">GB7DIWB6UMX5BUVARY6HVFM2Q376GBNPRPKXJHRCQCAMNYLCV4VQ3BAS</a></p>
+
+    <h3>SAVE Liquidity Pools (SAVE LPs)</h3>
+    <p>The wallet managing liquidity pools for the project.<br>
+      <a href="https://stellar.expert/explorer/public/account/GDSKRUDXX2A3ZHEOP3S7DRKFYF6VZLZQ4OERRVBSB4ISNDYX3TFNIPNK">GDSKRUDXX2A3ZHEOP3S7DRKFYF6VZLZQ4OERRVBSB4ISNDYX3TFNIPNK</a></p>
+
+    <h3>SAVE Farm</h3>
+    <p>The wallet responsible for yield farming and reinvestment of earnings.<br>
+      <a href="https://stellar.expert/explorer/public/account/GAIT7ZUVWLPFRC3POOB76HMXIPIRAOG6NOMTPQG6RM5EUGYI6Q2XXQTK">GAIT7ZUVWLPFRC3POOB76HMXIPIRAOG6NOMTPQG6RM5EUGYI6Q2XXQTK</a></p>
+
+    <h2>Liquidity Pools</h2>
+    <p>SAVE manages liquidity through pools to provide trading liquidity and stability. The following pools are managed by the SAVE LPs wallet:</p>
+    <p>
+      <strong>SAVE/USDC Pool</strong>: <a href="https://stellar.expert/explorer/public/liquidity-pool/bc24675f2d9b47691e646a226285c2d9e873aa3f9a841d3efb35caccf00ca20e"> Link</a><br>
+      <strong>SAVE/XLM Pool</strong>: <a href="https://stellar.expert/explorer/public/liquidity-pool/fbbf80a4f62addd1415f377bf9cf5ac83b064393493c80698a8425af7dfb9060"> Link</a><br>
+      <strong>SAVE/yXLM Pool</strong>: <a href="https://stellar.expert/explorer/public/liquidity-pool/bc24675f2d9b47691e646a226285c2d9e873aa3f9a841d3efb35caccf00ca20e"> Link</a>
+    </p>  
+
+    <h2>Yield Farming</h2>
+    <p>The SAVE Farm wallet handles yield farming, including liquidity rewards, staking, holding rewards, and market-making. Earnings are reinvested into the ecosystem, maintaining liquidity and sustainability. Current farming projects include:</p>
+    <p>
+      <strong>ACT</strong>: <a href="https://stellar.expert/explorer/public/asset/ACT-GAHHULDPDVGB5WS5PH7BCGLJ7ZHECDBIIMKB62UPVDUOCHNFL7HX3FS7-1"> Link</a><br>
+      <strong>AQUA</strong>: <a href="https://stellar.expert/explorer/public/asset/AQUA-GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA-1"> Link</a><br>
+      <strong>TREAD</strong>: <a href="https://stellar.expert/explorer/public/asset/TREAD-GANMKTF7SVYEHZ4CTLRKT2MG2OUJNDEA3JGZGTUTHQZOZSWJHHUF6VLM-2"> Link</a><br>
+      <strong>DicInu</strong>: <a href="https://stellar.expert/explorer/public/asset/DicInu-GDMNBJWZBNQFCDUDPTG4DFLLUT6WPTMALBNX63OIM2YP5RLULTCFCNEA-2"> Link</a><br>
+      <strong>XTAR</strong>: <a href="https://stellar.expert/explorer/public/asset/XTAR-GAORYJ3KBDGIM7FFSKVUJHJ5NEFWIRDIAGGBJBJS7TY6ECZS53257IG4-1"> Link</a><br>
+      <strong>yXLM</strong>: <a href="https://stellar.expert/explorer/public/asset/yXLM-GARDNV3Q7YGT4AKSDF25LT32YSCCW4EV22Y2TV3I2PU2MMXJTEDL5T55-1"> Link</a>
+    </p>
+
+    <h2>Liquidity Incentives</h2>
+    <p>Through a partnership with Authentic Payment, SAVE provides liquidity incentives, rewarding participants in the <a href="https://stellar.expert/explorer/public/liquidity-pool/19f287d3bf016cabe25d7524915b7f169d29aca1d5969dfdf332998fffadcb32">SAVE/ACT</a> LP with both SAVE and ACT tokens, issued hourly to liquidity providers.</p>
+
+    <h2>Partners</h2>
+    <p><a href="https://authentic-payment.com/"><strong>Authentic Payment</strong></a>: Authentic Payment supports liquidity incentives for the SAVE/ACT LP, rewarding users with SAVE and ACT tokens. Future partnerships will be proposed and voted on by SAVE token holders.
+	</p>
+
+	<h2>DEX and AMM Listings</h2>
+	<p>Project SAVE is listed across several decentralized exchanges (DEX) and automated market maker (AMM) platforms. Below are the platforms where SAVE is currently available:
+	</p>
+
+	<p>
+	  <strong>Lumenswap</strong>: 
+	  <a href="https://obm.lumenswap.io/spot/SAVE-GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ/XLM">DEX</a> | 
+	  <a href="https://amm.lumenswap.io/swap/SAVE-GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ/XLM">AMM</a><br>   
+	  <strong>Lobstr</strong>: 
+	  <a href="https://lobstr.co/trade/SAVE:GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ">DEX</a> | 
+	  <a href="https://lobstr.co/swap/SAVE:GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ">AMM</a><br>
+	  <strong>StellarX</strong>: 
+	  <a href="https://www.stellarx.com/markets/SAVE:GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ/native">DEX</a> | 
+	  <a href="https://www.stellarx.com/swap/SAVE:GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ/choose-asset">AMM</a><br>
+	  <strong>Scopuly</strong>: 
+	  <a href="https://scopuly.com/trade/SAVE-XLM/GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ/native">DEX</a> | 
+	  <a href="https://scopuly.com/swap/XLM-SAVE/native/GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ/?amount=1&destination=">AMM</a><br>
+	  <strong>StellarTerm</strong>: 
+	  <a href="https://stellarterm.com/exchange/SAVE-GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ/XLM-native">DEX</a><br>
+	  <strong>SDEX Explorer</strong>: 
+	  <a href="https://sdexexplorer.com/assets/SAVE-GBWKWJTPYLDEIUZ3EZ34HGXWRQ4R6DUCNLG5SIT72RL243IJZLLG5UOJ/markets">DEX</a>
+	</p>
+
+    <h2>Risk Factors</h2>
+    <p>SAVE, dependent on the Stellar network, carries blockchain-based risks. If necessary, tokens can be returned at the current buyback price. SAVE commits to risk transparency and decentralized decision-making within the community.</p>
+
+    <h2>Financial Sustainability</h2>
+    <p>Revenue, derived from DEX trades, yield farming, staking, and market-making, is reinvested. Monthly reinvestments ensure liquidity and buybacks, using additional earnings from yield farming to support sustainability.</p>
+
+    <h2>Roadmap</h2>
+    <h3>Phase 1: Building Foundations</h3>
+    <p>Phase 1 focuses on establishing tokenomics and buybacks for investor confidence.</p>
+    <h3>Phase 2: Community Growth and Governance</h3>
+    <p>Phase 2 will expand community engagement on social platforms and transition governance to a DAO model, allowing SAVE holders to vote on major project developments.</p>
+
+    <h2>Conclusion</h2>
+    <p>Project SAVE delivers a sustainable, community-driven digital asset ecosystem that mitigates price drops and ensures continuous value for low-risk investors. The guaranteed buyback, reinvestment strategy, and plans for DAO governance position SAVE as a reliable model for token sustainability.</p>
+
+    <h2>Revision History</h2>
+    <p>2024-11-13 v1.0 - Proposed release.</p>
+  </main>
+</body>
+</html>
